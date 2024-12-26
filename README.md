@@ -1,5 +1,6 @@
 # zilsutra
-Zilsutra is meant to be a universal simulator for any microcontrollers and/or microprocessors.
+Zilsutra is meant to be a universal simulator for any microcontroller and/or microprocessor.
+It is suitable for anything that has registers and can execute instructions.
 
 ## Why?
 I could not find any suitable open-source simulator for the new ATtiny 0 family of microcontrollers. The only ones I found either did not work, or were closed-source and I could not use them on their own but had to pull a gigantic IDE with a specific license tied to it, and would not let me simulate raw assembly, but only whatever its specific custom version of AVR-GCC was spitting out. I am not going to name names, but they know who they are. And there was another category of simulators, those that would not let me single step, or give me proper debugging capabilities over the simulation.
